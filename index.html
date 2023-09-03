@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>FGD TASK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto+Condensed:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <style>
+    * {
+      font-family: 'Gochi Hand', cursive;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    body {
+      margin-top: 50px;
+    }
+
+    .home {
+      padding-top: 20px;
+      height: 400px;
+      width: auto;
+      background: linear-gradient(#141420, #f9fcfd);
+      text-align: center;
+      justify-content: center;
+
+
+    }
+
+    .profile {
+      padding-top: 50px;
+
+    }
+
+    .project {
+      padding-top: 70px;
+      background: linear-gradient(#ffffff, #141420);
+    }
+
+    .contact {
+
+      padding-top: 90px;
+      padding-bottom: 70px;
+      height: 700px;
+      background: linear-gradient(#141420, #e5e9ed);
+    }
+
+    .footer {
+      background: linear-gradient(#303045, #7d8287);
+    }
+
+    .mycard {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .myphoto {
+      height: 200px;
+      width: 200px;
+      padding: auto;
+      border-radius: 50%;
+      transition: transform .2s;
+      
+    }
+
+    .myphoto :hover {
+      border-radius: 70%;
+    }
+
+    .list-contact {
+      background-color: black;
+    }
+
+    .icon {
+      width: 30px;
+      height: 30px;
+      border: 10px;
+    }
+
+    li {
+      text-align: left;
+      padding-left: 40px;
+    }
+
+    h5 {
+      color: white;
+      padding-top: 40px;
+    }
+
+    hr {
+      color: white;
+    }
+
+    .mypicture {
+      width: auto;
+      height: 400px;
+    }
+
+    .jumbotron {
+      text-align: center;
+      padding-top: 90px;
+      font-size: larger;
+    }
+
+    .deadpool {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    #rocket{
+      width: 100px;
+      margin-left: 500px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Ikrom</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Send Massage</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </nav>
+  <!-- akhir navbar -->
+  <!-- home -->
+  <section class="home" id="home">
+    <img src="https://i.pinimg.com/564x/14/80/8f/14808f0a5906689f7b686106ae667685.jpg" alt="" class="myphoto">
+    <h1 style="text-align: center; padding-top: 10px; ">Welcome!,</h1>
+    <h4 style="text-align: center;">This is my protfolio website</h4>
+  </section>
+  <!-- akhir home -->
+  <!-- profile -->
+  <section class="profile" id="profile">
+    <div class="container text-center" ">
+      <div class=" row">
+      <div class="col">
+        <img src="https://i.postimg.cc/NFQYfgMq/mypicture.png" alt="" class="mypicture">
+      </div>
+      <div class="col" style="padding-top: 80px;">
+        <h6>This is Me</h6>
+        <hr style="color: black">
+        <h6>
+          kenalin, saya Ikrom. peserta studi independen mitra learning x, saya adalah mahasiswa universitas
+          kuningan semester 5. sebagai mahasiswa prodi sistem informasi dari fakultas Ilmu kompoter
+          saya dituntut agar menguasai ilmu komputer seperti pemrograman terutama pemrograman web, karena syarat
+          kelulusan bagi saya adalah membuat sebuah projek web selain itu saya juga sangat tertarik untuk bisa membuat
+          website senidri. dan itulah mengapa saya memilih mitra learning x
+          yang menyediakan kursus dan berfokus di bidang web development.
+        </h6>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- akhir profile -->
+  <!-- project -->
+  <section class="project" id="project">
+    <div class="mycard">
+      <h4 style="text-align: center; margin-bottom: 20px;">My Project experience/ experience</h4>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://i.pinimg.com/736x/78/7f/86/787f8609c0e9b90ab233bd7c79847de2.jpg" alt="" width="100px"
+                height="100px" style="position: ce;">
+              <h5 class="card-title">projek website</h5>
+              <p class="card-text">membuat website sekolah untuk pemenuhan tugaas mata kuliah pemrograman web</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://i.pinimg.com/564x/51/1f/be/511fbe8dddd5e9ef64eefabd14e42b75.jpg" alt="" height="100px"
+                width="100px" style="padding-bottom: 5px;">
+              <h5 class="card-title">Eskul Pramuka</h5>
+              <p class="card-text">mengikuti eskul pramuka saat MA(Madrasah Aliyah) mulai dari kelas 10 sampai kelas 12
+                dan pernah mengikuti perkemahan nasional yaitu PERWIMANAS(perkemahan wirakarya pramukaa ma'arif
+                nasional) </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0" style="margin-top: 10px;">
+          <div class="card">
+            <div class="card-body">
+              <img
+                src="data:image/png;base64,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"
+                alt="" width="200px" height="100px">
+              <h5 class="card-title">Kampus Mengajar</h5>
+              <p class="card-text">Kampus mengajar adalah salah satu program dari kampus merdeka
+                yang di adakan oleh kemetrian pendidikan yang bertujuan untuk meningkatkan kualitas pendidikan
+                di indonesia secara merata
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir project -->
+  <!-- contact -->
+  <section class="contact" id="contact" height: 400px;">
+    <div class="container text-center">
+      <div class="row" style="padding-top: 30px;">
+        <div class="col">
+          <h4 style="text-align: center; color: white;">Tell me! what you think about me!</h4>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput"> Your Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Your massage</label>
+          </div>
+          <button type="button" class="btn btn-primary" style="margin-top: 10px;">Send</button>
+        </div>
+        <div class="col" style="background-color: black; border-radius: 10px;">
+          <h1 style="color: white;">contact me here!</h1>
+          <hr>
+          <h5><img src="https://i.pinimg.com/564x/bf/8a/76/bf8a76719f900b8757154eb3cfbc844a.jpg" alt="" class="icon">
+            083100734522</h5>
+          <hr>
+          <h5><img src="https://i.pinimg.com/564x/ae/a3/35/aea335fd233887bd3057d9a01b111828.jpg" alt="" class="icon">
+            @nur_ikrom097</h5>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir contact -->
+  <!-- footer -->
+  <section style="height: 400px;">
+    <div class="jumbotron" style="background-color: #f7f8f9ed;">
+      <h1>Thank you</h1>
+      <marquee behavior="alternatif" direction="">
+        <img src="https://i.pinimg.com/564x/6c/82/53/6c8253b86c280083be61365743f11829.jpg" alt="" height="200px"
+          class="deadpool">
+        <img src="https://i.pinimg.com/564x/90/59/96/90599653ef5412398bf19a2971992df5.jpg" alt="" height="200px"
+          class="deadpool">
+        <img src="https://i.pinimg.com/564x/c5/95/93/c5959391f662e3fa82c683e0ae1c6c2f.jpg" alt="" height="200px"
+          class="deadpool">
+        <img src="https://i.pinimg.com/564x/ad/f7/4c/adf74c1a831cd5121b55f25b3d715f48.jpg" alt="" height="200px"
+          class="deadpool">
+      </marquee>
+      <h4>i'm glad to see your massage</h4>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
